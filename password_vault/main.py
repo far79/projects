@@ -20,6 +20,16 @@ if opt_menu==1:
 			print("service:",serv,"doesn't exist")
 
 if opt_menu==2:
-	a=vault_data[input("which service(google/git):")][input("which service(username/email/password):")]
+	a=vault_data[input("which service(google/git):")][input("which credential(username/email/password):")]
 	print(a)
 
+if opt_menu==3:
+	serv=input("type selected service\n1)google\n2)git")
+	cred=input("type selected credential\n1)username\n2)email\n3)password")
+	new_cred=input("type new credential")
+	vault_data[serv][cred]=new_cred
+	print(vault_data)
+
+
+if opt_menu==4:
+	print("Exiting")
