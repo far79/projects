@@ -1,0 +1,8 @@
+2026-07-13 15:01:22 | INFO | /index.html | 200 | 14ms
+2026-07-13 15:02:05 | WARN | /api/v1/resource | 404 | 28ms
+2026-07-13 15:03:40 | ERROR | /checkout/payment | 500 | 312ms
+2026-07-13 15:04:11 | INFO | /static/css/main.css | 304 | 5ms
+
+2026-07-13 15:05:59 | ERROR | /api/auth/logout | 401 | 18ms
+
+2026-07-13 15:05:59 | ERROR | /api/auth/logout | 401 | 18ms
