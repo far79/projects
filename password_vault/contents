@@ -1,0 +1,4 @@
+vault_data={
+	"google" : ["username" : "icefire", "email" : "icefire@gmail.com", "password" : "icefire1234"]
+	"git" : ["username" : "fireice", "email" : "fireice@gmail.com", "password" : "fireice1234"]
+}
