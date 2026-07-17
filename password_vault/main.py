@@ -4,7 +4,7 @@ vault_data={
 }
 
 
-print("1)to list/check service available\n2)to check password\n3)to change password\n4)exit")
+print("1)to list/check service available\n2)to check password\n3)to change password\n4)to generate a random password\n5)to exit")
 opt_menu=int(input("choose option number:"))
 
 if opt_menu==1:
@@ -30,6 +30,15 @@ if opt_menu==3:
 	vault_data[serv][cred]=new_cred
 	print(vault_data)
 
-
 if opt_menu==4:
+	import string
+	import random
+	character = string.ascii_letters + string.digits + string.punctuation
+	password=""
+	for i in range(12):
+		password+=random.choice(character)
+	print(password)
+
+
+if opt_menu==5:
 	print("Exiting")
